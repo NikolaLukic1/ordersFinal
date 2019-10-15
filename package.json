@@ -1,0 +1,33 @@
+{
+  "name": "orders",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "test",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "auto-launch": "^5.0.5",
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "mongodb": "^3.3.2",
+    "quasar": "^1.0.0",
+    "ssr": "^3.4.5",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
